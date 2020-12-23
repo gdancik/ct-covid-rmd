@@ -199,7 +199,7 @@ if (hospitalizations > 20) {
 valueBox(hospitalizations, icon = "fa-first-aid", color = boxcolor)
 ```
 
-Row{data-height=600px}
+Row{data-height=600}
 -----------------------------------------------------------------------
 
 ### Cases per Day
@@ -273,7 +273,7 @@ highest_30day_deaths <- round(highest_30day_deaths, 1)
 
 ```
 
-Row {data-height=150px}
+Row {data-height=150}
 -----------------------------------------------------------------------
 ### Latest Daily Cases (30 day high of 7 day avg = `r highest_30day_cases`)
 
